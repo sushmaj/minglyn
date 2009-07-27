@@ -11,4 +11,5 @@ Require-Bundle: com.thoughtworks.twist.mingle.core,
  org.eclipse.mylyn.commons.net,
  org.eclipse.mylyn.tasks.core,
  org.eclipse.core.runtime,
- org.apache.commons.logging
+ org.apache.commons.logging,
+ org.eclipse.equinox.security

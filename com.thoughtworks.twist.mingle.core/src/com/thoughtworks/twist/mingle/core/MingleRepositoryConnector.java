@@ -77,7 +77,7 @@ public class MingleRepositoryConnector extends AbstractRepositoryConnector {
 		try {
 			MingleClient client = MingleClientFactory.getDefault().getClient(repository, monitor);
 
-			TaskDataList allTaskData = client.getAllTaskData(MingleUtils.getQueryUrlAfterReplacingSquareBrackets(query.getUrl()));
+			TaskDataList allTaskData = client.getAllTaskData(MingleUtils.getQueryUrlAfterEncodingURL(query.getUrl()));
 
 			for (TaskData taskData : allTaskData) {
 				resultCollector.accept(taskData);

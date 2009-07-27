@@ -22,8 +22,15 @@ public class MingleUtilsTest extends TestCase {
 		assertEquals(
 				"color_by=priority&filters%5B%5D=%5BType%5D%5Bis%5D%5BCard%5D&filters%5B%5D=%5BOwner%5D%5Bis%5D%5Bnk%5D&group_by=iteration&tab=Plan+by+Iterations",
 				MingleUtils
-						.getQueryUrlAfterReplacingSquareBrackets("https://mingle05.thoughtworks.com/projects/twist_launch/cards/grid?color_by=priority&filters[]=[Type][is][Card]&filters[]=[Owner][is][nk]&group_by=iteration&tab=Plan+by+Iterations"));
+						.getQueryUrlAfterEncodingURL("https://foo/projects/twist_launch/cards/grid?color_by=priority&filters[]=[Type][is][Card]&filters[]=[Owner][is][nk]&group_by=iteration&tab=Plan+by+Iterations"));
 
+	}
+
+	public void testReplacesCommasInUrls() throws Exception {
+		assertEquals(
+				"lanes=foo%2Cbar%2Cbaz&tab=Plan+by+Iterations&filters%5B%5D=%5BType%5D%5Bis%5D%5BCard%5D",
+				MingleUtils
+						.getQueryUrlAfterEncodingURL("https://mingle05.thoughtworks.com/projects/tide/cards/grid?lanes=foo,bar,baz&tab=Plan+by+Iterations&filters%5B%5D=%5BType%5D%5Bis%5D%5BCard%5D&"));
 	}
 
 }
