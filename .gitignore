@@ -1,0 +1,10 @@
+.DS_Store
+*/bin
+.metadata
+.svn
+
+External Plug-in Libraries
+com.thoughtworks.twist.mingle.updatesite/artifacts.jar
+com.thoughtworks.twist.mingle.updatesite/content.jar
+com.thoughtworks.twist.mingle.updatesite/features
+com.thoughtworks.twist.mingle.updatesite/plugins

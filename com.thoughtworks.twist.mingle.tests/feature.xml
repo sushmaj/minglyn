@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.thoughtworks.twist.mingle.tests"
+      label="Mingle Test Feature"
+      version="0.1.0.qualifier"
+      provider-name="ThoughtWorks, Inc.">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="com.thoughtworks.twist.mingle"
+         version="0.0.0"/>
+
+   <requires>
+      <import plugin="com.thoughtworks.twist.mingle.core"/>
+      <import plugin="org.junit"/>
+      <import plugin="org.eclipse.mylyn.commons.core"/>
+      <import plugin="org.eclipse.mylyn.commons.net"/>
+      <import plugin="org.eclipse.mylyn.tasks.core"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.apache.commons.logging"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="com.thoughtworks.twist.mingle.ui"/>
+   </requires>
+
+   <plugin
+         id="com.thoughtworks.twist.mingle.core.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.thoughtworks.twist.mingle.ui.tests"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

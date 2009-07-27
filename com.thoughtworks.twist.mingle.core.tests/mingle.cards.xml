@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<card>
+
+
+	<cp_accepted_on type="date"/>
+	<cp_accepted_on_iteration_card_id type="integer"/>
+	<cp_action_due_by type="date">2008-03-15</cp_action_due_by>
+	<cp_actual_effort/>
+	<cp_added_to_scope_card_id type="integer"/>
+	<cp_added_to_scope_on type="date"/>
+	<cp_analysis_completed_in_iteration_card_id type="integer"/>
+	<cp_avg_defect_ttl/>
+	<cp_avg_story_ttl/>
+	<cp_build_completed/>
+	<cp_build_reported/>
+	<cp_date_reported type="date"/>
+	<cp_date___end type="date"/>
+	<cp_defect_estimate/>
+	<cp_defect_fix_completed_in_iteration_card_id type="integer"/>
+	<cp_defect_fix_started_in_iteration_card_id type="integer"/>
+	<cp_defect_status/>
+	<cp_defect_time_to_life/>
+	<cp_development_completed_in_iteration_card_id type="integer"/>
+	<cp_development_started_in_iteration_card_id type="integer"/>
+	<cp_development_started_on type="date"/>
+	<cp_dev_complete_on type="date"/>
+	<cp_end_date type="date"/>
+	<cp_feature_card_id type="integer"/>
+	<cp_iteration_card_id type="integer"/>
+	<cp_iteration_estimate/>
+	<cp_number_of_stories/>
+	<cp_owner_user_id type="integer"/>
+	<cp_planned_size/>
+	<cp_planning_estimate/>
+	<cp_planning_task_card_id type="integer"/>
+	<cp_points_per_feature/>
+	<cp_priority/>
+	<cp_qa_completed_in_iteration_card_id type="integer"/>
+	<cp_release_card_id type="integer"/>
+	<cp_release_start_date type="date"/>
+	<cp_reported_by_user_id type="integer"/>
+	<cp_reported_in_iteration_card_id type="integer"/>
+	<cp_revised_size/>
+	<cp_risk_group>Technical</cp_risk_group>
+	<cp_risk_impact>500000</cp_risk_impact>
+	<cp_risk_liklihood>Medium</cp_risk_liklihood>
+	<cp_risk_status>New</cp_risk_status>
+	<cp_status/>
+	<cp_story_card_id type="integer"/>
+	<cp_story_count/>
+	<cp_story_count_per_feature/>
+	<cp_story_time_to_life/>
+	<cp_task_estimate/>
+	<cp_task_status/>
+	<cp_testing_status/>
+	<cp_total_planning_estimate/>
+	<cp_total_task_size/>
+	<cp_type_of_test/>
+
+	<created_at type="datetime">2008-11-11T05:11:56Z</created_at>
+	<description/>
+	<name>Legacy system - dependency on client dev team</name>
+	<updated_at type="datetime">2008-11-11T05:11:56Z</updated_at>
+	<card_type_name>Risk</card_type_name>
+	<id type="integer">331</id>
+	
+	<created_by_user_id type="integer">1</created_by_user_id>
+	<modified_by_user_id type="integer">1</modified_by_user_id>
+
+	<number type="integer">111</number>
+	<project_id type="integer">5</project_id>
+	
+	<version type="integer">1</version>
+	
+	<caching_stamp type="integer">0</caching_stamp>
+	
+</card>

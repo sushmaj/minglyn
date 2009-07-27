@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mingle Connector Ui
+Bundle-SymbolicName: com.thoughtworks.twist.mingle.ui;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: com.thoughtworks.twist.mingle.ui.Activator
+Bundle-Vendor: ThoughtWorks, Inc.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.mylyn.tasks.ui,
+ org.eclipse.mylyn.tasks.core,
+ com.thoughtworks.twist.mingle.core,
+ org.eclipse.mylyn.commons.net,
+ org.eclipse.ui.forms,
+ org.eclipse.mylyn.commons.ui,
+ org.eclipse.jface.text
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy
+Export-Package: com.thoughtworks.twist.mingle.ui

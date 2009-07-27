@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mingle Ui Plug-in
+Bundle-SymbolicName: com.thoughtworks.twist.mingle.ui.tests
+Bundle-Version: 1.0.0
+Bundle-Activator: com.thoughtworks.twist.mingle.ui.tests.Activator
+Bundle-Vendor: ThoughtWorks, Inc.
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.junit,
+ com.thoughtworks.twist.mingle.ui,
+ com.thoughtworks.twist.mingle.core
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Bundle-ActivationPolicy: lazy

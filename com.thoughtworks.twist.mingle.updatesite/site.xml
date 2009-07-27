@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Mingle Mylyn Connector" url="http://twist.thoughtworks.com/minglyn-update-site">
+      Mylyn connector for Mingle
+   </description>
+   <feature url="features/com.thoughtworks.twist.mingle_0.1.0.qualifier.jar" id="com.thoughtworks.twist.mingle" version="0.1.0.qualifier">
+      <category name="Mingle Mylyn Connector"/>
+   </feature>
+   <category-def name="Mingle Mylyn Connector" label="Mingle Mylyn Connector">
+      <description>
+         This contains the Mylyn connectors that work with mingle.
+      </description>
+   </category-def>
+</site>

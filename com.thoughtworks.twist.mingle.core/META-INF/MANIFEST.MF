@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mingle Connector Core
+Bundle-SymbolicName: com.thoughtworks.twist.mingle.core
+Bundle-Version: 0.1.0.qualifier
+Bundle-Vendor: ThoughtWorks, Inc.
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
+Export-Package: com.thoughtworks.twist.mingle.core
+Require-Bundle: org.eclipse.mylyn.tasks.core,
+ org.eclipse.mylyn.commons.net,
+ org.eclipse.core.runtime,
+ com.thoughtworks.xstream
+Eclipse-RegisterBuddy: com.thoughtworks.xstream
